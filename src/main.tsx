@@ -5,9 +5,12 @@ import App from './app';
 
 // styles
 import './index.css';
+import Providers from './template/provider';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <Providers>
+      <App />
+    </Providers>
   </React.StrictMode>,
 );

@@ -1,7 +1,12 @@
-import Hello from '~/components/Hello';
+import { Box } from '@mui/material';
+import { Counter } from '~/features/counter/Counter';
 
 function App() {
-  return <Hello />;
+  return (
+    <Box>
+      <Counter />
+    </Box>
+  );
 }
 
 export default App;
