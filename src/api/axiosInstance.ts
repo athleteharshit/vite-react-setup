@@ -34,7 +34,6 @@ const responseErrorHandler = (error: AxiosError) => {
     // ??  error request message
   }
 
-  // eslint-disable-next-line prefer-promise-reject-errors
   return Promise.reject({
     status: error.response?.status,
     errors,
