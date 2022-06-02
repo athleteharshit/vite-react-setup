@@ -1,13 +1,12 @@
-import { Box } from '@mui/material';
-import { Counter } from '~/features/counter/Counter';
+import { Route, Routes } from 'react-router-dom';
 import Hello from '@components/Hello';
+import ROUTE_NAME from '@utils/route-name';
 
 function App() {
   return (
-    <Box>
-      <Counter />
-      <Hello />
-    </Box>
+    <Routes>
+      <Route path={ROUTE_NAME.HOME} element={<Hello />}></Route>
+    </Routes>
   );
 }
 
