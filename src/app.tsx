@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import Hello from '@components/Hello';
 import ROUTE_NAME from '@utils/route-name';
 import PublicRoute from './template/public.route';
+import Home from '@pages/home/home';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         path={ROUTE_NAME.HOME}
         element={
           <PublicRoute>
-            <Hello />
+            <Home />
           </PublicRoute>
         }
       ></Route>
