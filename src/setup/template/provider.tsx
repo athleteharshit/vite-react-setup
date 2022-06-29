@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux';
-import { store } from '~/app/store';
+import { store } from '~/setup/app/store';
 import { ThemeProvider } from '@mui/material/styles';
-import theme from '~/theme/theme';
+import theme from '~/setup/theme/theme';
 
 type ProvidersProps = {
   children: React.ReactNode;

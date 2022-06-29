@@ -25,7 +25,7 @@
     "paths": {
       "~/*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@template/*": ["src/template/*"],
+      "@template/*": ["src/setup/template/*"],
       "@utils/*": ["src/utils/*"],
       "@hooks/*": ["src/hooks/*"]
     }

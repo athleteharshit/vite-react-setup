@@ -1,12 +1,12 @@
 import { Box } from '@mui/material';
 import { Counter } from '~/features/counter/Counter';
-import Hello from '@components/Hello';
+import Home from '~/pages/home';
 
 function App() {
   return (
     <Box>
       <Counter />
-      <Hello />
+      <Home />
     </Box>
   );
 }

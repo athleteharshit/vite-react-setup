@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Providers from '@template/provider';
+import Providers from '~/setup/template/provider';
 import App from '~/app';
 import './index.css';
 
